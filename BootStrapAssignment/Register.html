@@ -53,54 +53,29 @@
         </nav>
 
         <!--Login Form-->
-        <div class="container">
-            <h2>Basic Form</h2>
+        <div class="container left">
+            <h2>Register</h2>
+            <h3>User Register Request Model</h3>
+            <hr/>
     
-            <form action="https://www.google.com" method="post">
-                <div class="mb-3"><lable class="form-lable">FullName:</lable><input class="form-control" type="text" name="fullName" required></div>
+            <form method="post">
+                <div class="mb-3"><lable class="form-lable">Email</lable><input class="form-control" type="text" name="email" required></div>
                 
-                <div class="mb-3"><label class="form-lable">Password:</label><input class="form-control" type="password" name="password" required></div>
+                <div class="mb-3"><label class="form-lable">Password</label><input class="form-control" type="password" name="password" required></div>
                 
-                <div class="mb-3"><label class="form-lable">Country:</label>
-                    <select class="form-control" name="country">
-                        <option>Select</option>
-                        <option value="1">USA</option>
-                        <option value="1">Germany</option>
-                        <option value="1">China</option>
-                        <option value="1">India</option>
-                    </select></div>
-                
-                <div class="mb-3"><label class="form-check-label">Gender:</label>
-                    <input class="form-check-input" type ="radio" name="gender" value="male"> Male 
-                    <input class="form-check-input" type ="radio" name="gender" value="male"> Female 
-                    <input class="form-check-input" type ="radio" name="gender" value="male"> Other </div>
-                
-                <div class="mb-3"><label class="form-lable">Upload resume:</label><input class="form-control" type="file" name="resume"></div>
-                
-                <div class="mb-3"> <label class="form-lable">Text Box:</label><textarea class="form-control" name="textbox"></textarea></div>
-               
-                <div class="mb-3"><input class="form-check-input" type ="checkbox" name="terms and conditions"><label class="form-check-label">I agree to terms and conditions</label></div>
-                
-                <button type="submit" class="btn btn-primary">Sign up</button>
-                <button type="reset" class="btn btn-primary">Clear Form</button>
-                <!-- <input type = "submit" value="Sign Up">
-                <input type="reset" value="Clear Form"> -->
-            </form>
-        </div>
-    
-        <div class="container">
-            <h2>Horizontal Form</h2>
-            <form>
-                <div class="row">
-                    <div class="col-8">
-                        <lable class="form-lable">FullName:</lable><input class="form-control" type="text" name="fullName" required>
-                    </div>
-                    <div class="col-4">
-                        <label class="form-lable">Password:</label><input class="form-control" type="password" name="password" required>
-                    </div>
-                </div>
-            </form>
-        </div>
+                <div class="mb-3"><lable class="form-lable">Confirm Password</lable><input class="form-control" type="password" name="confirmPassword" required></div>
 
+                <div class="mb-3"><lable class="form-lable">Firstname</lable><input class="form-control" type="text" name="firstName" required></div>
+
+                <div class="mb-3"><lable class="form-lable">Lastname</lable><input class="form-control" type="text" name="lastName" required></div>
+
+                <div class="mb-3"><label class="form-lable">Date of Birth</label>
+                    <input placeholder="mm/dd/yyyy" type="text" id="date-picker" class="form-control datepicker">
+                </div>
+
+                <button type="submit" class="btn mt-3 btn-primary">Create</button>
+                <div><a href="">Back to List</a></div>
+            </form>
+        </div>
     </body>
 </html>

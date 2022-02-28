@@ -47,54 +47,17 @@
         </nav>
 
         <!--Login Form-->
-        <div class="container">
-            <h2>Basic Form</h2>
+        <div class="container mt-3 center">
+            <h2>Login</h2>
+            <hr/>
     
-            <form action="https://www.google.com" method="post">
-                <div class="mb-3"><lable class="form-lable">FullName:</lable><input class="form-control" type="text" name="fullName" required></div>
+            <form method="post">
+                <div class="mb-3"><lable class="form-lable">Email:</lable><input class="form-control" type="text" name="email" required></div>
                 
                 <div class="mb-3"><label class="form-lable">Password:</label><input class="form-control" type="password" name="password" required></div>
                 
-                <div class="mb-3"><label class="form-lable">Country:</label>
-                    <select class="form-control" name="country">
-                        <option>Select</option>
-                        <option value="1">USA</option>
-                        <option value="1">Germany</option>
-                        <option value="1">China</option>
-                        <option value="1">India</option>
-                    </select></div>
-                
-                <div class="mb-3"><label class="form-check-label">Gender:</label>
-                    <input class="form-check-input" type ="radio" name="gender" value="male"> Male 
-                    <input class="form-check-input" type ="radio" name="gender" value="male"> Female 
-                    <input class="form-check-input" type ="radio" name="gender" value="male"> Other </div>
-                
-                <div class="mb-3"><label class="form-lable">Upload resume:</label><input class="form-control" type="file" name="resume"></div>
-                
-                <div class="mb-3"> <label class="form-lable">Text Box:</label><textarea class="form-control" name="textbox"></textarea></div>
-               
-                <div class="mb-3"><input class="form-check-input" type ="checkbox" name="terms and conditions"><label class="form-check-label">I agree to terms and conditions</label></div>
-                
-                <button type="submit" class="btn btn-primary">Sign up</button>
-                <button type="reset" class="btn btn-primary">Clear Form</button>
-                <!-- <input type = "submit" value="Sign Up">
-                <input type="reset" value="Clear Form"> -->
+                <button type="submit" class="btn btn-primary">Login  <img src="images/loginIcon.png" width="20" height="20" class="d-inline-block"></button>
             </form>
         </div>
-    
-        <div class="container">
-            <h2>Horizontal Form</h2>
-            <form>
-                <div class="row">
-                    <div class="col-8">
-                        <lable class="form-lable">FullName:</lable><input class="form-control" type="text" name="fullName" required>
-                    </div>
-                    <div class="col-4">
-                        <label class="form-lable">Password:</label><input class="form-control" type="password" name="password" required>
-                    </div>
-                </div>
-            </form>
-        </div>
-
     </body>
 </html>
