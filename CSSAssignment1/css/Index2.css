@@ -1,0 +1,31 @@
+/*Index 2*/
+
+html, body, main {
+    margin: 0;
+    height: 100%;
+    min-height: 100%;
+}
+
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+  
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+  
+a:hover {
+    color: rgb(172, 172, 172);
+    background-color: transparent;
+    text-decoration: none;
+}
+  
+a:active {
+    color: rgb(172, 172, 172);
+    background-color: transparent;
+    text-decoration: none;
+}

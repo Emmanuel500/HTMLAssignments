@@ -1,0 +1,59 @@
+/*Index 3*/
+
+html, body, main {
+    margin: 0;
+    height: 100%;
+    min-height: 100%;
+}
+
+/*Format*/
+.mainbody {
+    color:rgb(46, 46, 112);
+    background-color: rgb(240, 240, 240);
+}
+
+.news_article {
+    background-color: white;
+}
+
+/*Aligning*/
+.center {
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+}
+
+.right {
+    position: absolute;
+    right: 0px;
+    width: 300px;
+    padding: 10px;
+}
+
+.left {
+    position: static;
+    left: 0px;
+}
+
+/*Buttons*/
+.btn {
+    background-color: orange;
+    color: white;
+}
+.btn:hover {
+    background-color: darkorange;
+    color:white;
+}
+
+.page-link {
+    color: white;
+    background-color: blue;
+}
+.page-link:hover {
+    color: white;
+    background-color: darkorange;
+}
+.page-link:active {
+    color: white;
+    background-color: orange;
+}
